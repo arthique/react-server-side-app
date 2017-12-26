@@ -17,6 +17,6 @@
     template.js -- our basic HTML template
 ```
 
-npm install --save react prop-types react-dom express
+npm install --save react prop-types react-dom express react-router redux react-redux history immutable
 
 npm install --save-dev babel-core babel-loader babel-polyfill babel-preset-es2015 babel-preset-react babel-preset-stage-0 style-loader css-loader extract-text-webpack-plugin json-loader node-sass sass-loader file-loader url-loader webpack webpack-node-externals

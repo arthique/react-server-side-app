@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {PropTypes} from 'prop-types';
+
 
 import './styles.scss';
 
@@ -14,6 +16,6 @@ export default class App extends Component {
     }
 }
 
-// App.propTypes = {
-//     isMobile: PropTypes.bool.isRequired
-// };
+App.propTypes = {
+    isMobile: PropTypes.bool.isRequired
+};
